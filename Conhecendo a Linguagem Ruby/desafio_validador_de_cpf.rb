@@ -1,6 +1,6 @@
 require 'cpf_cnpj'
 
-def teste(cpf)
+def conferir_cpf(cpf)
     if CPF.valid?(cpf)
         return "CPF correto"
     else
@@ -12,6 +12,6 @@ end
 print("Digite seu CPF: ")
 cpf_number = gets.chomp.to_i
 
-result = teste(cpf_number)
+result = conferir_cpf(cpf_number)
 
 puts result 
