@@ -2,7 +2,7 @@
 livros = []
 
 # Adicionando itens
-livros.push("Memórias Pótumas de brás Cubas", "Iracema", "A ceita", "A nuvem", "Viagem ao centro da Terra") # Push sempre adicona no final da fila.
+livros.push("Memórias Pótumas de brás Cubas", "Iracema", "A ceita", "A nuvem", "Viagem ao centro da Terra") # Push sempre adiciona no final da fila.
 livros.insert(2, "Harry Potter", "O ceifador") # Insert você indica onde ele começa a inserir os dados
 
 # Acessando primeiro e último elemento do Array.
